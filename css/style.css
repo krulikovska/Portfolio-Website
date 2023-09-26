@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #b4b5b9;
+    color: #252b2b;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: #373c3c;
+}
+
+a:hover {
+    color: #505956;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 10rem;
+    
+}
+
+#projects p{
+    text-align: center;
+}
+
+#projects p.lang {
+    font-size: 0.8rem;
+    color:#adbcb9
+}
+
+#projects a {
+    color:#9badab;
+    border: 0.3px solid white;
+    padding: 0.4rem;
+}
+
+#projects a:hover {
+    border: 0.3px solid rgb(114, 109, 109);
+}
+
+/*Navbar*/
+
+.navbar {
+    background-color: #242c2b !important;
+}
+.navbar a {
+    color: #dfdfdf !important;
+}
+
+.navbar .nav-link.active{
+    border-radius: 0;
+    border: 1px white solid;
+    
+}
+
+.navbar .nav-link:hover {
+    border-radius: 0;
+    border: 1px white solid;
+}
+
+.navbar .nav-link:focus {
+    border-radius: 0;
+    border: 1px white solid;
+}
+
+.navbar img {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.custom-toggler {
+    background-color:#c2c2c2;
+
+    
+}
+
+.btn {
+    padding: 12px 28px;
+    border: 1px #242c2b solid;   
+}
+
+.btn:hover {
+    padding: 12px 28px;
+    border: 1px #798785 solid !important;
+   
+}
+
+.project {
+    background-color: #252b2b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0 #505956;
+}
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img{
+    transition: all 0.4s ease;  
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.5);
+}
+
+.contact-info {
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+footer {
+    background-color: #373c3c;
+}
+
+footer a {
+    color:#b4b5b9;
+}
+
+footer .container{
+    
+    display: flex;
+    justify-content: end;
+    
+}
+
+#contact img {
+    height: 7rem;
+}
+
+.contact-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s;
+}
+
+.contact-card:hover {
+    transform: scale(1.1);
+}
+
+/* Responsivness */
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: 15rem;
+        background-color: #242c2b !important;
+    
+    }
+
+    .full-height {
+        padding-left: 25%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .full-height{
+        margin-top: 10%;
+    }
+
+}
+
+
+
+
